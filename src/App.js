@@ -166,7 +166,7 @@ function App() {
       </div>
       <button className="span-two" 
       onClick={ ()=> dispatch({ type:ACTIONS.CLEAR}) }>
-        AC</button>
+        AC  </button>
       <button onClick={()=>{
         dispatch({type:ACTIONS.DELETE_DIGIT})
       }}>DEL</button>
